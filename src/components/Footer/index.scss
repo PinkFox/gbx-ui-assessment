@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.footer {
+    background: $colorDarkGray;
+    box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: $colorLightGray;
+    display: flex;
+    height: 64px;
+    width: 100%;
+}
+
+.footer-tab {
+    background: none;
+    border: none;
+    color: $colorLightGray;
+    cursor: pointer;
+    flex: 1 1 auto;
+    line-height: 0;
+}
+
+    .footer-tab.is-active {
+        color: $colorYellow;
+    }
+
+.footer-tab-icon {
+    font-size: 1.5rem;
+}

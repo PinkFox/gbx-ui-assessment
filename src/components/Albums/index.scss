@@ -1,0 +1,11 @@
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    width: 100%;
+}
+
+.albums-column {
+    flex: 0 1 25%;
+    padding: 12px;
+}

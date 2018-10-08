@@ -1,0 +1,70 @@
+@import '../../variables';
+
+.album {
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: relative;
+}
+
+.album-link {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.album-art {
+    height: 0;
+    padding: 0 0 100%;
+    position: relative;
+    width: 100%;
+}
+
+.album-art-container {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+    .album-art-container img {
+        height: 100%;
+        width: 100%;
+    }
+
+.album-text {
+    padding: 16px;
+    position: relative;
+}
+
+.album-title {
+    color: $colorDarkGray;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.album-subtitle {
+    color: $colorGray;
+    font-size: 0.75rem;
+    margin: 4px 0 0;
+}
+
+.album-action {
+    background: none;
+    border: none;
+    bottom: 0;
+    color: $colorGray;
+    cursor: pointer;
+    line-height: 0;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    width: 32px;
+}

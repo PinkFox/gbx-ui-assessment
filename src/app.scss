@@ -1,0 +1,58 @@
+@import 'variables';
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    background: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#root {
+    background: $colorLightGray;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin: 80px auto;
+    max-width: 768px;
+    // padding: 0 0 133.333333%;
+    position: relative;
+    width: 100%;
+}
+
+.app {
+    height: 100%;
+    padding: 0 0 133.333333%;
+    position: relative;
+    width: 100%;
+}
+
+.app-container {
+    height: 100%;
+    padding: 144px 0 192px;
+    position: absolute;
+    width: 100%;
+}
+
+.app-content {
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+
+.app-top,
+.app-bottom {
+    position: absolute;
+    width: 100%;
+}
+
+    .app-top {
+        top: 0;
+    }
+
+    .app-bottom {
+        bottom: 0;
+    }

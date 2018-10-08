@@ -1,0 +1,11 @@
+.songs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    width: 100%;
+}
+
+.songs-column {
+    flex: 0 1 50%;
+    padding: 12px;
+}

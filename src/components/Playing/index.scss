@@ -1,0 +1,63 @@
+@import "../../variables";
+
+.playing {
+    background: #fff;
+    box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: $colorDarkGray;
+    display: flex;
+    height: 128px;
+    padding: 0 12px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.playing-column {
+    align-items: center;
+    display: flex;
+    padding: 0 12px;
+    width: 50%;
+}
+
+.playing-button {
+    background: $colorDarkGray;
+    border: none;
+    border-radius: 50%;
+    color: $colorLightGray;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 48px;
+    line-height: 0;
+    margin: 0 12px;
+    padding: 0;
+    width: 48px;
+}
+
+    .playing-button.large {
+        color: $colorYellow;
+        font-size: 2rem;
+        height: 80px;
+        width: 80px;
+    }
+
+    .playing-button .icon-play {
+        margin-right: -8px;
+    }
+
+.playing-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 4px 0 0;
+}
+
+.playing-subtitle {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.playing-descriptor {
+    color: $colorGray;
+    font-size: 0.75rem;
+    font-weight: 500;
+}

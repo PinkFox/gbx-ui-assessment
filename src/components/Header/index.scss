@@ -1,0 +1,47 @@
+@import '../../variables';
+
+.header {
+    background: $colorYellow;
+    color: $colorDarkGray;
+    display: flex;
+    height: 96px;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.header-column {
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+    .header-column.left {
+        flex-grow: 1;
+    }
+
+.header-padded {
+    padding: 0 16px;
+}
+
+.header-button {
+    color: $colorDarkGray;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header-icon-large {
+    font-size: 2rem;
+}
+
+.header-icon-small {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.header-logo {
+    font-size: 3rem;
+    margin: -4px 0 0;
+    padding: 0 8px;
+}

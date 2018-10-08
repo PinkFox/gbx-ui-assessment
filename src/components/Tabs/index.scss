@@ -1,0 +1,57 @@
+@import '../../variables';
+
+.tabs {
+    background: $colorYellow;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: $colorDarkGray;
+    display: flex;
+    height: 48px;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.tab-column {
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+    .tab-column.left {
+        flex-grow: 1;
+    }
+
+.tab-padded {
+    padding: 0 16px;
+}
+
+.tab {
+    align-items: center;
+    background: none;
+    border: none;
+    color: $colorDarkGray;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 700;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+}
+
+    .tab.is-active::before {
+        content: '';
+        background: $colorDarkGray;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .tab.small {
+        font-size: 0.875rem;
+    }
+
+.tab-icon {
+    margin-left: 16px;
+}

@@ -1,0 +1,54 @@
+@import '../../variables';
+
+.song {
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.song-link {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.song-title {
+    color: $colorDarkGray;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.song-subtitle {
+    color: $colorGray;
+    font-size: 0.75rem;
+    margin: 4px 0 0;
+}
+
+.song-actions {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+.song-action {
+    background: none;
+    border: none;
+    color: $colorGray;
+    cursor: pointer;
+    height: 32px;
+    line-height: 0;
+    margin: 0 8px;
+    padding: 0;
+    position: relative;
+    width: 32px;
+    z-index: 3;
+}
